@@ -1,14 +1,13 @@
 import React from "react";
 
-export function Header ({name}){
-    return (
-        <div className="App">
-        <header>
-            {name}
-        </header>
-        </>
-    )
-
+function Header({ name }) {
+  return (
+    <div className="App">
+      <header>
+        <h1>{name}</h1>
+      </header>
+    </div>
+  );
 }
 
 export default Header;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Article = ({ title, date, preview }) => {
+export function Article ({ title, date, preview }) {
   const articleDate = date || 'January 1, 1970'
   
   return (
