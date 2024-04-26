@@ -1,11 +1,11 @@
 import React from "react";
 
-export function Header (props){
+export function Header ({name}){
     return (
-        <>
-        <h1>
-            {props.name}
-        </h1>
+        <div className="App">
+        <header>
+            {name}
+        </header>
         </>
     )
 
